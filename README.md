@@ -1,5 +1,5 @@
 # PrimeApp
-PrimeApp is a cryptographic **prime number generation** and _performance_ testing **Android** *App* using the Miller Rabin test.
+PrimeApp is a cryptographic **prime number generation** and **performance testing** app for **Android** using the Miller Rabin test.
 ## Introduction
 Cryptographic algorithms as **RSA** and **DH** require large primes (up to several 100 digits long). This **Java** project implements an efficient prime number generation (**[NIST FIPS-186-4](http://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-4.pdf)**) and analyses its performance comparing to the well known __Bouncy Castle library__. This sophisticated project evaluates and documents the performance in **great detail** for a physical Android device and the Android studio supplied emulator. (The emulator is faster!)
 
