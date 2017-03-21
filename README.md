@@ -28,7 +28,7 @@ This diagram shows the times needed to generate 1000 prime numbers (each 1024 Bi
 1. generate a number of the desired length
 2. test the number if it is prime or not with the library implementation
 3. test the same number if it is prime or not with my own implementation
-4. compare my implementation's performance with the libraries. Also compare the results for correctness - They always had the same result -> my Implementation is as correct as the library.
+4. compare my implementation's performance with the libraries. Also compare the results for correctness - They always had the same result -> my implementation is as correct as the library.
 ![process](https://github.com/hengxti/PrimeApp/blob/master/process.png)
 
 ## Pseudo Code Miller Rabin test
