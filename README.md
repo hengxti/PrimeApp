@@ -21,7 +21,7 @@ Complie code into an Android apk or use the apk in the repository. See [the docu
 Copyright protected. Other licenses are available upon request.
 
 ## Results
-This diagram shows the times needed to generate 1000 prime numbers ( each1024 Bit long) using the Miller Rabin test. It is clearly visible that sometimes many candidates are tested before a prime is recognized, thoses are large statistical outliars. The average generation time is much lower. 
+This diagram shows the times needed to generate 1000 prime numbers (each 1024 Bit long) using the Miller Rabin test. It is clearly visible that sometimes many candidates are tested before a prime is recognized, thoses are large statistical outliars. The average generation time is much lower. 
 ![results](https://github.com/hengxti/PrimeApp/blob/master/1024bitdata.png)
 
 ## Programm process
