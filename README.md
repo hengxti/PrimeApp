@@ -1,7 +1,7 @@
 # PrimeApp
 PrimeApp is a cryptographic **prime number generation** and _performance_ testing **Android** *App* using the Miller Rabin test.
 ## Introduction
-Cryptographic algorithms as **RSA** and **DH** require large primes (up to several 100 digits long). This **Java** project implements a efficient prime number generation (**[NIST FIPS-186-4](http://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-4.pdf)**) and analyses its performance comparing to the well known __Bouncy Castle library__. This sophisticated project evaluates and documents the performance in **great detail** for a physical Android device and the Android studio supplied emulator. (The emulator is faster!)
+Cryptographic algorithms as **RSA** and **DH** require large primes (up to several 100 digits long). This **Java** project implements an efficient prime number generation (**[NIST FIPS-186-4](http://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-4.pdf)**) and analyses its performance comparing to the well known __Bouncy Castle library__. This sophisticated project evaluates and documents the performance in **great detail** for a physical Android device and the Android studio supplied emulator. (The emulator is faster!)
 
 Please take a look into the [35 page full documentation](https://github.com/hengxti/PrimeApp/blob/master/Prime_Generation_v2_Documentation.pdf) for more Information.
 
@@ -25,6 +25,10 @@ This diagram shows the times needed to generate 1000 prime numbers (each 1024 Bi
 ![results](https://github.com/hengxti/PrimeApp/blob/master/1024bitdata.png)
 
 ## Programm process
+1. generate a number of the desired length
+2. test the number if it is prime or not with the library implementation
+3. test the same number if it is prime or not with my own implementation
+4. compare my implementation's performance with the libraries. Also compare the results for correctness - They always had the same result -> my Implementation is as correct as the library.
 ![process](https://github.com/hengxti/PrimeApp/blob/master/process.png)
 
 ## Pseudo Code Miller Rabin test
