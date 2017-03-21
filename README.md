@@ -5,7 +5,7 @@ Cryptographic algorithms as RSA and DH require large primes (up to several hundr
 
 Please take a look into the [35 page full documentation](https://github.com/hengxti/PrimeApp/blob/master/Prime_Generation_v2_Documentation.pdf) for more Information.
 
-![Screenshot](https://github.com/hengxti/PrimeApp/blob/master/Screenshot_20160903-1814292.png)
+![Screenshot](https://github.com/hengxti/PrimeApp/blob/master/Screenshot_20160827-200837.png)
 
 ## Candidate creation
 The Miller rabin test needs candidate integers to test. Here is a diagram how candidates can be generated.
