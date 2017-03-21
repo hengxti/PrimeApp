@@ -15,7 +15,7 @@ The Miller rabin test needs candidate integers to test. Here is a diagram how ca
 Martin Hengstberger m.hengstberger 'at' gmx.at . This was one of my university projects at Johannes Kepler University Linz.
 
 ## Installation 
-Complie code into an Android apk or use the apk in the repository. See Prime_Generation_v2_Documentation.pdf section installation.
+Complie code into an Android apk or use the apk in the repository. See [the documentation pdf](https://github.com/hengxti/PrimeApp/blob/master/Prime_Generation_v2_Documentation.pdf) section installation.
 
 ## License 
 Copyright protected. Other licenses are available upon request.
